@@ -1,0 +1,20 @@
+{
+	"name": "nanotimelog",
+	"description": "time index",
+	"version": "1.0.0",
+	"keywords": ["time", "streaming", "flume"],
+	"maintainers": [{
+		"name": "Matthew 'rektide' Fowle",
+		"email": "rektide@voodoowarez.com",
+		"web": "http://voodoowarez.com"
+	}],
+	"homepage": "http://voodoowarez.com/evec-flume",
+	"implements": ["CommonJS/Modules/1.0"],
+	"engines": { "node": ">=0.6.0" },
+	"dependencies": {
+		"flume": ">=1.0.0",
+		"hrtime": ">=1.0.0",
+		"optimist": ">=0.2.8"
+	},
+	"repository": {"type": "git", "url": "http://git.voodoowarez.com/nanotimelog.git"}
+}
